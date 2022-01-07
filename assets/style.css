@@ -14,7 +14,7 @@
 }
 
 html {
-    background-color: #383838;
+    background-color: #000000;
     background-repeat: repeat;
     background-size: cover;
 }
@@ -27,8 +27,8 @@ body {
 
 .container {
     background: linear-gradient(-180deg, rgba(207, 20, 20, 0.5)0%, rgba(247, 78, 78, 0.87)100%);
-    background: url("Splash1.jpg") no-repeat center;
-    width: 100vw;
+    background: url("bg.jpg") no-repeat center;
+    width: auto0vw;
     height: 100vh;
     position: relative;
 }
@@ -56,6 +56,8 @@ body {
     color: rgb(199, 0, 0);
     display: none;
     font-style: inherit;
+    border-style: dotted;
+    border-radius: 1px;
 }
 
 .btn {
